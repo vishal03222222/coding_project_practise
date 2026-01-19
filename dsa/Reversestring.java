@@ -1,12 +1,22 @@
+// public class reversestring {
+//     public static void main(String[] args) {
+//         String str = "vishal";
+//         String reversed = "";
+
+//         for (int i = str.length() - 1; i >= 0; i--) {
+//             reversed += str.charAt(i);
+//         }
+
+//         System.out.println(reversed);
+//     }
+// }
 public class reversestring {
-    public static void main(String[] args) {
-        String str = "vishal";
-        String reversed = "";
-
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reversed += str.charAt(i);
+    public static void main(String[] args){
+        String str="visakl";
+        String reverse="";
+        for(int i=str.length()-1;i>=0;i--){
+            reverse +=str.charAt(i);
         }
-
-        System.out.println(reversed);
+        System.out.println(reverse);
     }
 }
