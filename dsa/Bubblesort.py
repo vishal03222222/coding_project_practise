@@ -14,7 +14,7 @@ def bubble_sort(arr):
         if not swapped:
             break
 
-# Example
+
 arr = [5, 1, 4, 2, 8]
 
 print("Original array:", arr)
