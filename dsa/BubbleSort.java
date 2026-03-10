@@ -1,6 +1,6 @@
 public class BubbleSort {
 
-    // Method to perform bubble sort
+ 
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
 
@@ -10,10 +10,10 @@ public class BubbleSort {
 
             for (int j = 0; j < n - 1 - i; j++) {
 
-                // Compare adjacent elements
+            
                 if (arr[j] > arr[j + 1]) {
 
-                    // Swap arr[j] and arr[j+1]
+                
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -22,14 +22,14 @@ public class BubbleSort {
                 }
             }
 
-            // If no swapping happened, array is already sorted
+         
             if (!swapped) {
                 break;
             }
         }
     }
 
-    // Method to print array
+ 
     public static void printArray(int[] arr) {
         for (int num : arr) {
             System.out.print(num + " ");
